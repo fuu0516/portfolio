@@ -1,0 +1,15 @@
+.news{
+  position: absolute;
+  top:75vh;
+  left:25vw;
+  background: white;
+  padding: 20px 20px;
+  width: 700px;
+}
+.news p{
+  margin-top: 20px;
+  font-size: 15px;
+}
+.news h2{
+  font-size: 20px;
+}

@@ -1,0 +1,112 @@
+.about h1 {
+	padding-top: 100px;
+	padding-bottom: 80px;
+	text-align: center;
+	font-size: 5em;
+	font-weight: bolder;
+}
+
+/* ------- main work-img style -------- */
+.worksimg {
+	display: block;
+	margin: 100px auto;
+	margin-bottom: 0px;
+}
+
+/* ------- main button style -------- */
+.list {
+	display: inline-block;
+	padding: 0.3em 1em;
+	text-decoration: none;
+	background-color: white;
+	color: #67c5ff;
+	border: solid 2px #67c5ff;
+	border-radius: 3px;
+	transition: 0.4s;
+}
+.list:hover {
+	background: #67c5ff;
+	color: white;
+}
+.button {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.et_pb_module {
+	margin: 50px 0px 20px 20px;
+}
+/* ------- main button-content style -------- */
+.content {
+	display: flex;
+	justify-content: center;
+	margin: 50px auto;
+}
+.content img {
+	border-radius: 5px;
+}
+.content p {
+	display: flex;
+	justify-content: center;
+	font-size: 1em;
+	margin-top: 10px;
+	font-size: 1em;
+	color: black;
+}
+.tent img {
+	width: 100%;
+}
+
+.content .tent {
+	width: 40%;
+	background: #f5f5f5;
+	margin: 10px;
+	padding: 2%;
+	border-radius: 5px;
+}
+
+.all,
+.ruby,
+.js,
+.cg {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#hi {
+	visibility: hidden;
+}
+.section {
+	margin-left: 8%;
+	width: 70%;
+}
+
+p.te {
+	font-weight: 500;
+	font-size: 1.3em;
+	border-radius: 0.2em;
+	margin: 15px;
+}
+.detail{
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	border: solid 2px #67c5ff;
+	width: 100px;
+	padding: 10px;
+	color: #67c5ff;
+	text-decoration: none;
+}
+.detail:hover{
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #67c5ff;
+	border: solid 2px #67c5ff;
+	width: 100px;
+	padding: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	transform: 1s;
+}

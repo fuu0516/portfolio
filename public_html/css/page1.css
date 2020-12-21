@@ -1,0 +1,58 @@
+.about h1{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  border-radius: 50%;
+  align-items: center;
+}
+.faceimg{
+  align-items: center;
+}
+.face{
+  margin: 0 auto;
+  width: 250px;
+}
+
+.content span{
+  font-size: 20px;
+  font-weight: bold;
+}
+.content {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.content p{
+  text-align: center;
+  margin: 20px;
+}
+.profile_item{
+  width: 100%;
+  margin: 0 auto;
+}
+.sns {
+  margin: 100px auto;
+  width: 230px;
+}
+.sns a{
+  /* margin-left: 45%;  */
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 2em;
+  color: black;
+}
+
+.github{
+  margin-bottom: 30px;
+}
+.flex{
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+
+/* ---slideshow--- */
+#slideshow{
+	list-style-type: none;
+	pointer-events: none;
+	position: relative;
+}
+#slideshow>li{
+	opacity: 0;
+	position: absolute;
+	transition: opacity 1s;
+}
+#slideshow>li.current{
+	opacity: 1;
+}

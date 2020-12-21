@@ -1,0 +1,48 @@
+.about h1{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: 5em;
+  font-weight: bolder;
+}
+.contact{
+  text-align: center;
+  font-size: 15px;
+}
+.contact a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.links{
+	display: inline-block;
+}
+.links a{
+	position: relative;
+	transition: 0.25s ease-in-out;
+	color: black;
+}
+.links:hover a{
+	color: #019bdf;
+}
+.links a::before{
+	width: 0;
+	height: 3px;
+	background: #019bdf;
+	position: absolute;
+	bottom: -5px;
+	content: "";
+}
+.links:hover a::before{
+	transition: 0.25s ease-in-out;
+	width: 100%;
+}
+.links a::before{
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.contact p{
+  margin-top: 50px;
+}
